@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		08137CEE6184081E9E646407 /* libPods-flixUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C5F7E6040B70E28885AD5345 /* libPods-flixUITests.a */; };
 		1911FAE220E45B3C00EE6A6F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1911FAE120E45B3C00EE6A6F /* AppDelegate.m */; };
-		1911FAE520E45B3C00EE6A6F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1911FAE420E45B3C00EE6A6F /* ViewController.m */; };
 		1911FAE820E45B3C00EE6A6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1911FAE620E45B3C00EE6A6F /* Main.storyboard */; };
 		1911FAEA20E45B3C00EE6A6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1911FAE920E45B3C00EE6A6F /* Assets.xcassets */; };
 		1911FAED20E45B3C00EE6A6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1911FAEB20E45B3C00EE6A6F /* LaunchScreen.storyboard */; };
 		1911FAF020E45B3C00EE6A6F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1911FAEF20E45B3C00EE6A6F /* main.m */; };
 		1911FAFA20E45B3C00EE6A6F /* flixTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1911FAF920E45B3C00EE6A6F /* flixTests.m */; };
 		1911FB0520E45B3C00EE6A6F /* flixUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1911FB0420E45B3C00EE6A6F /* flixUITests.m */; };
+		1911FB1420E46A3B00EE6A6F /* MoviesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1911FB1320E46A3B00EE6A6F /* MoviesViewController.m */; };
+		1911FB1920E5B46700EE6A6F /* MovieCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1911FB1820E5B46700EE6A6F /* MovieCell.m */; };
 		799B0F5C315A9A09757780CC /* libPods-flix.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C7EE8E745FBC7BEC325C830 /* libPods-flix.a */; };
 		A80E8E93A1024EE403ADE148 /* libPods-flixTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76745B25DD7A9A9F56AD4C8A /* libPods-flixTests.a */; };
 /* End PBXBuildFile section */
@@ -42,8 +43,6 @@
 		1911FADD20E45B3C00EE6A6F /* flix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1911FAE020E45B3C00EE6A6F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1911FAE120E45B3C00EE6A6F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1911FAE320E45B3C00EE6A6F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1911FAE420E45B3C00EE6A6F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1911FAE720E45B3C00EE6A6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1911FAE920E45B3C00EE6A6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1911FAEC20E45B3C00EE6A6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,6 +54,10 @@
 		1911FB0020E45B3C00EE6A6F /* flixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1911FB0420E45B3C00EE6A6F /* flixUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = flixUITests.m; sourceTree = "<group>"; };
 		1911FB0620E45B3C00EE6A6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1911FB1220E46A3B00EE6A6F /* MoviesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoviesViewController.h; sourceTree = "<group>"; };
+		1911FB1320E46A3B00EE6A6F /* MoviesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoviesViewController.m; sourceTree = "<group>"; };
+		1911FB1720E5B46700EE6A6F /* MovieCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieCell.h; sourceTree = "<group>"; };
+		1911FB1820E5B46700EE6A6F /* MovieCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieCell.m; sourceTree = "<group>"; };
 		2E5E0DA404A491D79D185133 /* Pods-flixUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flixUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-flixUITests/Pods-flixUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4537743F219FE1324B2950B8 /* Pods-flixTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flixTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-flixTests/Pods-flixTests.release.xcconfig"; sourceTree = "<group>"; };
 		5C7EE8E745FBC7BEC325C830 /* libPods-flix.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-flix.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,10 +121,10 @@
 		1911FADF20E45B3C00EE6A6F /* flix */ = {
 			isa = PBXGroup;
 			children = (
+				1911FB1620E5B3F900EE6A6F /* Views */,
+				1911FB1520E5540D00EE6A6F /* View Controllers */,
 				1911FAE020E45B3C00EE6A6F /* AppDelegate.h */,
 				1911FAE120E45B3C00EE6A6F /* AppDelegate.m */,
-				1911FAE320E45B3C00EE6A6F /* ViewController.h */,
-				1911FAE420E45B3C00EE6A6F /* ViewController.m */,
 				1911FAE620E45B3C00EE6A6F /* Main.storyboard */,
 				1911FAE920E45B3C00EE6A6F /* Assets.xcassets */,
 				1911FAEB20E45B3C00EE6A6F /* LaunchScreen.storyboard */,
@@ -147,6 +150,24 @@
 				1911FB0620E45B3C00EE6A6F /* Info.plist */,
 			);
 			path = flixUITests;
+			sourceTree = "<group>";
+		};
+		1911FB1520E5540D00EE6A6F /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1911FB1220E46A3B00EE6A6F /* MoviesViewController.h */,
+				1911FB1320E46A3B00EE6A6F /* MoviesViewController.m */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		1911FB1620E5B3F900EE6A6F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1911FB1720E5B46700EE6A6F /* MovieCell.h */,
+				1911FB1820E5B46700EE6A6F /* MovieCell.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		5D1B6104972DF37AADDFA82A /* Frameworks */ = {
@@ -362,9 +383,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1911FAE520E45B3C00EE6A6F /* ViewController.m in Sources */,
 				1911FAF020E45B3C00EE6A6F /* main.m in Sources */,
 				1911FAE220E45B3C00EE6A6F /* AppDelegate.m in Sources */,
+				1911FB1920E5B46700EE6A6F /* MovieCell.m in Sources */,
+				1911FB1420E46A3B00EE6A6F /* MoviesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,7 +492,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -522,7 +544,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -535,6 +557,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U8K69DFR3Q;
 				INFOPLIST_FILE = flix/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -552,6 +575,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U8K69DFR3Q;
 				INFOPLIST_FILE = flix/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
