@@ -15,13 +15,14 @@
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (nonatomic, strong) NSArray *movies;
 @property (nonatomic, strong) UIRefreshControl *refreshControl;
+@property (weak, nonatomic) IBOutlet UIActivityIndicatorView *activityIndicator;
 @end
 
 @implementation MoviesViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    [self.activityIndicator startAnimating];
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
     
@@ -30,7 +31,6 @@
     self.refreshControl = [[UIRefreshControl alloc] init];
     [self.refreshControl addTarget:self action:@selector(fetchMovies) forControlEvents:UIControlEventValueChanged];
     [self.tableView insertSubview:self.refreshControl atIndex:0];
-    
 }
 
 - (void) fetchMovies {
@@ -51,8 +51,10 @@
                 NSLog(@"%@",  movieiterator[@"title"]);
             }
             [self.tableView reloadData];
+            [self.activityIndicator stopAnimating];
         }
         [self.refreshControl endRefreshing];
+        
     }];
     [task resume];
 }
