@@ -45,11 +45,11 @@
         }
         else {
             NSDictionary *dataDictionary = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];
-            NSLog(@"%@", dataDictionary);
+//            NSLog(@"%@", dataDictionary);
             self.movies = dataDictionary[@"results"];
-            for(NSDictionary *movieiterator in self.movies) {
-                NSLog(@"%@",  movieiterator[@"title"]);
-            }
+//            for(NSDictionary *movieiterator in self.movies) {
+//                NSLog(@"%@",  movieiterator[@"title"]);
+//            }
             [self.tableView reloadData];
             [self.activityIndicator stopAnimating];
         }
