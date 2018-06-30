@@ -42,8 +42,12 @@ Here's a walkthrough of implemented user stories:
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
-
-Describe any challenges encountered while building the app.
+I dont think I faced challenges beyond just learning the language. 
+In the calculator app I felt I should have finished all the additional features, but 
+this time around I decided to not worry about how far I got and I focused on really understanding 
+the material. I was taking notes for all the videos and going slow through the material with the mindset
+of being able to be able to work on our future app without following guides. I am pleased with my progress
+and I am excited to keep expanding. :)
 
 ## Credits
 
